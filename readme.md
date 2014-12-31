@@ -50,3 +50,7 @@ gulp
 all minified files will be generated in dist/ folder ready to upload
 
 {todo: how to unit test, end-to-end test}
+
+#### Discussion
+We're using Slack to discuss related to this repo
+https://subali.slack.com/messages/tokobagas/
