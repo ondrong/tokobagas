@@ -4,9 +4,7 @@ this is infamous clone of http://tokobagus.com (olx) as a learning purpose only 
 
 REST API Backend
 --------------
-Based on Slim Framework http://slimframework.com with MongoDB http://mongodb.org as backend database to store ads. The REST API  already setup with CORS enabled and can be installed using composer http://getcomposer.org . Response type is json data type.
-
-{todo: add description for each endpoint}
+See https://github.com/SuBali/tokobagas-restapi for more details
 
 ----------
 
