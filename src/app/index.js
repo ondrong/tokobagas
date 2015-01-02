@@ -1,6 +1,7 @@
 'use strict';
 
-angular.module('tokobagas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstrap'])
+angular.module('tokobagas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstrap',
+	'facebook'])
   .config(function ($stateProvider, $urlRouterProvider, $httpProvider, FacebookProvider) {
     $stateProvider
       .state('home', {
@@ -10,7 +11,7 @@ angular.module('tokobagas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 
       });
 
     $urlRouterProvider.otherwise('/');
-    
+
     //CORS
     $httpProvider.defaults.useXDomain = true;
     $httpProvider.defaults.withCredentials = false;
