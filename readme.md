@@ -1,6 +1,8 @@
 TokoBagas
 =====================
-this is infamous clone of http://tokobagus.com (olx) as a learning purpose only for KeJarDev. Built on AngularJs using Gulp Angular Generator with REST API Backend. Feel free to fork, pull request, etc
+this is infamous clone of http://tokobagus.com (olx) as a learning purpose only for KeJarDev. Built on AngularJs using Gulp Angular Generator with REST API Backend. Feel free to fork, pull request, etc.
+
+Demo available at http://tokobagas.dev.my.id
 
 REST API Backend
 --------------
